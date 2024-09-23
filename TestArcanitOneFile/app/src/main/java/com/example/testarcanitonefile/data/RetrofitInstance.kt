@@ -15,7 +15,7 @@ class AuthInterceptor(private val token: String) : Interceptor {
 
 object RetrofitInstance {
     private const val GITHUB_TOKEN =
-        "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"
+        "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"
 
     val api: GitHubApiService by lazy {
         val client = OkHttpClient.Builder()
